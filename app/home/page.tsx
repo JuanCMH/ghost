@@ -1,5 +1,8 @@
 import { BackButton } from "@/components/back-button";
+import { Camera } from "@/components/camera";
+import { DetailCard } from "@/components/detail-card";
 import { GhostItem } from "@/components/ghost-item";
+import { Progress } from "@/components/progress";
 
 
 export default function Catalog() {
@@ -8,18 +11,16 @@ export default function Catalog() {
             <header>
                 <BackButton href="/login" />
             </header>
-            <div className="py-8 flex gap-2 items-center">
+            {/* <div className="py-8 flex gap-2 items-center">
                 <h1 className="text-6xl font-extralight">
                     Catalogo
                 </h1>
                 <p>
                     5/8
                 </p>
-            </div>
+            </div> */}
 
-
-            <GhostItem alt="" href="/" image="/next.svg" name="fantasma1" percentage={80} year={9} />
-
+                <Camera alt="fantasma" href="/" image="/next.svg"/>
 
 
         </main>
