@@ -1,0 +1,82 @@
+[
+  {
+    "id": "creativo",
+    "name": "Creativo",
+    "image": "/ghosts/creativo.png",
+    "rarity": "raro",
+    "weight": 14,
+    "yearsDead": 47,
+    "deathCause": "Se perdió dentro de un mural infinito",
+    "cemetery": "Cementerio de las Ideas Inconclusas"
+  },
+  {
+    "id": "dev",
+    "name": "Dev",
+    "image": "/ghosts/dev.png",
+    "rarity": "epico",
+    "weight": 7,
+    "yearsDead": 19,
+    "deathCause": "Un bug recursivo durante una madrugada eterna",
+    "cemetery": "Parque Memorial del Código Caído"
+  },
+  {
+    "id": "estratega",
+    "name": "Estratega",
+    "image": "/ghosts/estratega.png",
+    "rarity": "epico",
+    "weight": 8,
+    "yearsDead": 63,
+    "deathCause": "Quedó atrapado calculando el movimiento perfecto",
+    "cemetery": "Jardín Táctico de San Jerónimo"
+  },
+  {
+    "id": "legion",
+    "name": "Legion",
+    "image": "/ghosts/legion.png",
+    "rarity": "legendario",
+    "weight": 4,
+    "yearsDead": 132,
+    "deathCause": "Se desvaneció al invocar demasiadas voces a la vez",
+    "cemetery": "Necrópolis del Eco Profundo"
+  },
+  {
+    "id": "master",
+    "name": "Master",
+    "image": "/ghosts/master.png",
+    "rarity": "legendario",
+    "weight": 3,
+    "yearsDead": 108,
+    "deathCause": "Se apagó meditando bajo una luna roja",
+    "cemetery": "Claustro Eterno de la Colina Serena"
+  },
+  {
+    "id": "musico",
+    "name": "Musico",
+    "image": "/ghosts/musico.png",
+    "rarity": "poco comun",
+    "weight": 18,
+    "yearsDead": 34,
+    "deathCause": "La última nota de un concierto lo arrastró al más allá",
+    "cemetery": "Cementerio Armónico de Santa Cecilia"
+  },
+  {
+    "id": "organizador",
+    "name": "Organizador",
+    "image": "/ghosts/organizador.png",
+    "rarity": "comun",
+    "weight": 24,
+    "yearsDead": 26,
+    "deathCause": "Colapso entre listas, cajas y pendientes sin cerrar",
+    "cemetery": "Camposanto del Orden Final"
+  },
+  {
+    "id": "soporte",
+    "name": "Soporte",
+    "image": "/ghosts/soporte.png",
+    "rarity": "comun",
+    "weight": 22,
+    "yearsDead": 15,
+    "deathCause": "Respondió una última llamada que nadie pudo colgar",
+    "cemetery": "Cementerio de la Línea Abierta"
+  }
+]
