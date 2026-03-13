@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { FormEvent, useEffect, useMemo, useState } from "react";
+import { FormEvent, Suspense, useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { Progress } from "@/components/progress";
 import { AppInput } from "@/components/app-input";
@@ -189,7 +189,7 @@ function GhostConversation({
   );
 }
 
-export default function Catalog() {
+function ChatPageContent() {
   const searchParams = useSearchParams();
   const ghostId = searchParams.get("ghost");
 
@@ -202,5 +202,13 @@ export default function Catalog() {
       key={selectedGhost?.id ?? "ghost-unknown"}
       selectedGhost={selectedGhost}
     />
+  );
+}
+
+export default function Catalog() {
+  return (
+    <Suspense fallback={<GhostConversation selectedGhost={null} />}>
+      <ChatPageContent />
+    </Suspense>
   );
 }
